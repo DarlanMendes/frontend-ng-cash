@@ -1,0 +1,14 @@
+.areaTransfer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    .containerAreaTransfer{
+
+        height:400px;
+        background-color: var(--purple);
+        width:80vw;
+        max-width:800px;
+    
+    }
+}

@@ -1,7 +1,62 @@
 .historyContainer{
-    height:500px;
+    height:auto;
+    max-width: 700px;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding:2rem;
+    margin-top: 5px;
     background-color: var(--purple);
-    h1{
+    h2{
         color:var(--white-900)
+    }
+    overflow-y: auto;
+}
+.cashContainerIn,.cashContainerOut{
+    padding-left: 0.5rem;
+}
+.cashCard{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 5px 0;
+    background-color: var(--white-100);
+    h2{
+        color: var(--white-900);
+    }
+    .value{
+        font-size: 2rem;
+    }
+}
+@media(max-width:450px){
+    .historyContainer{
+        padding: 1rem;
+        width: 80vw;
+    }
+}
+.balanceMainContainer{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+    width:80vw;
+   
+}
+.containerCheckbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+.checkBoxCash{
+    width:30vw;
+    padding: 2px;
+    height: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    label{
+        color:white;
     }
 }
